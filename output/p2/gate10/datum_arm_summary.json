@@ -1,0 +1,158 @@
+{
+ "n_flip_units_orig": 6,
+ "n_flip_units_corr": 0,
+ "flip_units": [
+  {
+   "event": "ev01",
+   "param": "n1",
+   "flips_orig": "E1|E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": true,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  },
+  {
+   "event": "ev02",
+   "param": "n1",
+   "flips_orig": "E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": false,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  },
+  {
+   "event": "ev03",
+   "param": "n1",
+   "flips_orig": "E1|E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": true,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  },
+  {
+   "event": "ev04",
+   "param": "n1",
+   "flips_orig": "E1|E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": true,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  },
+  {
+   "event": "ev05",
+   "param": "n2",
+   "flips_orig": "E1|E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": true,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  },
+  {
+   "event": "ev06",
+   "param": "n1",
+   "flips_orig": "E1|E2",
+   "flips_corr": "",
+   "ident_orig": {
+    "E0": false,
+    "E1": true,
+    "E2": true
+   },
+   "ident_corr": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+   }
+  }
+ ],
+ "offset_summary": {
+  "ev00": {
+   "median": 0.0442,
+   "absmax": 0.3205
+  },
+  "ev01": {
+   "median": 0.0251,
+   "absmax": 0.2842
+  },
+  "ev02": {
+   "median": 0.0423,
+   "absmax": 0.3769
+  },
+  "ev03": {
+   "median": 0.0104,
+   "absmax": 0.3833
+  },
+  "ev04": {
+   "median": 0.0384,
+   "absmax": 0.3557
+  },
+  "ev05": {
+   "median": 0.0093,
+   "absmax": 0.2831
+  },
+  "ev06": {
+   "median": 0.0095,
+   "absmax": 0.4049
+  },
+  "ev07": {
+   "median": 0.0152,
+   "absmax": 0.2856
+  },
+  "ev08": {
+   "median": 0.0244,
+   "absmax": 0.2861
+  },
+  "ev09": {
+   "median": 0.00775,
+   "absmax": 0.4233
+  },
+  "ev10": {
+   "median": 0.0113,
+   "absmax": 0.3542
+  }
+ },
+ "pass_total_by_model_orig": {
+  "E0": 27,
+  "E1": 32,
+  "E2": 33
+ },
+ "pass_total_by_model_corr": {
+  "E0": 33,
+  "E1": 33,
+  "E2": 33
+ }
+}

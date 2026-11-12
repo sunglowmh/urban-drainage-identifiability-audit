@@ -1,0 +1,1069 @@
+[
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/corr",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/rn1",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/rn2",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/rn3",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/ru1",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/ru2",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev00/ru3",
+  "rough": [
+   0.015762,
+   0.012728,
+   0.01457
+  ],
+  "dwf_k": 1.0,
+  "start": "10/22/2025 15:15",
+  "end": "10/23/2025 17:00",
+  "event_id": "ev00",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/corr",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/rn1",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/rn2",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/rn3",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/ru1",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/ru2",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev01/ru3",
+  "rough": [
+   0.011646,
+   0.021745,
+   0.021307
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/corr",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/rn1",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/rn2",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/rn3",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/ru1",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/ru2",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev02/ru3",
+  "rough": [
+   0.015043,
+   0.018263,
+   0.018772
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/corr",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/rn1",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/rn2",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/rn3",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/ru1",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/ru2",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev03/ru3",
+  "rough": [
+   0.011886,
+   0.021859,
+   0.017247
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/corr",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/rn1",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/rn2",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/rn3",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/ru1",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/ru2",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev04/ru3",
+  "rough": [
+   0.011333,
+   0.021864,
+   0.021613
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/corr",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/rn1",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/rn2",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/rn3",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/ru1",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/ru2",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev05/ru3",
+  "rough": [
+   0.011335,
+   0.019311,
+   0.021776
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/corr",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/rn1",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/rn2",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/rn3",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/ru1",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/ru2",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev06/ru3",
+  "rough": [
+   0.01093,
+   0.021634,
+   0.019652
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/corr",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/rn1",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/rn2",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/rn3",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/ru1",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/ru2",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev07/ru3",
+  "rough": [
+   0.011131,
+   0.021851,
+   0.018095
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/corr",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/rn1",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/rn2",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/rn3",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/ru1",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/ru2",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev08/ru3",
+  "rough": [
+   0.010445,
+   0.01595,
+   0.009224
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/corr",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/rn1",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/rn2",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/rn3",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/ru1",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/ru2",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev09/ru3",
+  "rough": [
+   0.010604,
+   0.021761,
+   0.018296
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/corr",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/rn1",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": -0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/rn2",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": 0.0225
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/rn3",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": -0.045
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/ru1",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": -0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/ru2",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": 0.077
+ },
+ {
+  "run_dir": "E:/work/workBuddy/BlueHeartV2\\output\\p2\\runs_w2_theta/ev10/ru3",
+  "rough": [
+   0.009987,
+   0.021738,
+   0.011824
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10",
+  "rain_mode": "pert",
+  "eps": 0.0385
+ }
+]

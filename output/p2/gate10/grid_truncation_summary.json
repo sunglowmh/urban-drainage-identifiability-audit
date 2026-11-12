@@ -1,0 +1,14 @@
+{
+ "units": [
+  "ev01|E1",
+  "ev01|E2",
+  "ev02|E2",
+  "ev03|E1",
+  "ev05|E2",
+  "ev06|E2"
+ ],
+ "max_mass_outside_zoombox": 0.04124,
+ "max_ll_out_minus_in": -3.03,
+ "max_mean_shift_prior_frac": 0.0083,
+ "ident_flips_zoom_vs_global": []
+}

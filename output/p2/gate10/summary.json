@@ -1,0 +1,65 @@
+{
+ "cat_cnt": {
+  "C2": 33
+ },
+ "sub_cnt": {
+  "C2-\u5747\u503c\u6f02\u79fb(\u22651\u03c3)": 24,
+  "C2-\u5224\u7ea7\u7ffb\u8f6c": 6,
+  "C2-\u5224\u7ea7\u8106\u5f31(\u9884\u6d4b\u65e0\u589e\u76ca)": 3
+ },
+ "per_param": {
+  "n1": {
+   "C2": 11
+  },
+  "n2": {
+   "C2": 11
+  },
+  "n3": {
+   "C2": 11
+  }
+ },
+ "flip_units_model_axis": 6,
+ "axis_agree": {
+  "A1_v2|A6_loeo": [
+   92,
+   99
+  ],
+  "A1_v2|A2_corr": [
+   62,
+   63
+  ],
+  "A6_loeo|A2_corr": [
+   58,
+   63
+  ]
+ },
+ "axis_flip": 13,
+ "axis_covered": 297,
+ "tau_med": {
+  "E0E1": 0.333,
+  "E0E2": 0.333,
+  "E1E2": 1.0
+ },
+ "jaccard": {
+  "E0|E1": 0.844,
+  "E0|E2": 0.818,
+  "E1|E2": 0.97
+ },
+ "full_pred_by_model": {
+  "E0": {
+   "median": 0.0038,
+   "ge5": 0
+  },
+  "E1": {
+   "median": 0.0033,
+   "ge5": 0
+  },
+  "E2": {
+   "median": -0.0114,
+   "ge5": 0
+  }
+ },
+ "transfer_walk_n": 330,
+ "transfer_median": -0.01,
+ "transfer_ge5_frac": 0.024
+}

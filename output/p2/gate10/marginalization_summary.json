@@ -1,0 +1,141 @@
+{
+ "arch_profile_max_dev": 0.0,
+ "pass_matrix": {
+  "ev00|E0": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev00|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev00|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev01|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev01|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev01|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev02|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev02|E1": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev02|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev03|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev03|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev03|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev04|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev04|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev04|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev05|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev05|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev05|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev06|E0": {
+   "profile": false,
+   "marginal": false
+  },
+  "ev06|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev06|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev07|E0": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev07|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev07|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev08|E0": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev08|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev08|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev09|E0": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev09|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev09|E2": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev10|E0": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev10|E1": {
+   "profile": true,
+   "marginal": true
+  },
+  "ev10|E2": {
+   "profile": true,
+   "marginal": true
+  }
+ },
+ "ident_flips_profile_vs_marginal": [],
+ "tau_low_hit_frac_median_E2": 0.0,
+ "tau_high_hit_frac_median_E2": 0.0,
+ "tau_ext005_hit_frac_median_E2": 0.0
+}

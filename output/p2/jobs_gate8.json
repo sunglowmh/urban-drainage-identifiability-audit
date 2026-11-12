@@ -1,0 +1,28 @@
+[
+ {
+  "run_dir": "output/p2/runs_gate8/ev08_truth",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08",
+  "rain_mode": "corr"
+ },
+ {
+  "run_dir": "output/p2/runs_gate8/ev01_truth",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01",
+  "rain_mode": "corr"
+ }
+]

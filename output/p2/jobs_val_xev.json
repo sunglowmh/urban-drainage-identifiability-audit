@@ -1,0 +1,2882 @@
+[
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev01/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "10/19/2025 08:45",
+  "end": "10/20/2025 06:15",
+  "event_id": "ev01"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev02/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "12/08/2025 23:30",
+  "end": "12/09/2025 16:30",
+  "event_id": "ev02"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev03/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "03/10/2026 21:15",
+  "end": "03/11/2026 15:00",
+  "event_id": "ev03"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev04/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "11/10/2025 05:30",
+  "end": "11/11/2025 00:00",
+  "event_id": "ev04"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev05/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "07/06/2025 00:00",
+  "end": "07/06/2025 14:45",
+  "event_id": "ev05"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev06/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "01/29/2026 19:00",
+  "end": "01/30/2026 15:45",
+  "event_id": "ev06"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev07/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "10/03/2025 12:00",
+  "end": "10/04/2025 12:45",
+  "event_id": "ev07"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev08/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "10/20/2025 04:30",
+  "end": "10/21/2025 04:45",
+  "event_id": "ev08"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev09/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "02/18/2026 12:00",
+  "end": "02/19/2026 08:00",
+  "event_id": "ev09"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v00_diag",
+  "rough": [
+   0.00965,
+   0.00965,
+   0.00965
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v01_diag",
+  "rough": [
+   0.0116,
+   0.0116,
+   0.0116
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v02_diag",
+  "rough": [
+   0.01355,
+   0.01355,
+   0.01355
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v03_diag",
+  "rough": [
+   0.0155,
+   0.0155,
+   0.0155
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v04_diag",
+  "rough": [
+   0.01745,
+   0.01745,
+   0.01745
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v05_diag",
+  "rough": [
+   0.0194,
+   0.0194,
+   0.0194
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v06_diag",
+  "rough": [
+   0.02096,
+   0.02096,
+   0.02096
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v07_corner",
+  "rough": [
+   0.009,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v08_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v09_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v10_corner",
+  "rough": [
+   0.022,
+   0.022,
+   0.009
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v11_corner",
+  "rough": [
+   0.009,
+   0.022,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v12_corner",
+  "rough": [
+   0.022,
+   0.009,
+   0.022
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v13_rand",
+  "rough": [
+   0.01906,
+   0.01471,
+   0.02016
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v14_rand",
+  "rough": [
+   0.01807,
+   0.01022,
+   0.02168
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v15_rand",
+  "rough": [
+   0.01889,
+   0.01922,
+   0.01067
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v16_rand",
+  "rough": [
+   0.01486,
+   0.01382,
+   0.02105
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v17_rand",
+  "rough": [
+   0.01737,
+   0.0197,
+   0.01476
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v18_rand",
+  "rough": [
+   0.01195,
+   0.01621,
+   0.00983
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v19_rand",
+  "rough": [
+   0.01976,
+   0.01721,
+   0.01886
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v20_rand",
+  "rough": [
+   0.01361,
+   0.02162,
+   0.02061
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v21_rand",
+  "rough": [
+   0.01912,
+   0.01153,
+   0.01507
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v22_rand",
+  "rough": [
+   0.00957,
+   0.01101,
+   0.01788
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ },
+ {
+  "run_dir": "output/p2/xev/val_runs/ev10/v23_rand",
+  "rough": [
+   0.01868,
+   0.02158,
+   0.01324
+  ],
+  "dwf_k": 1.0,
+  "start": "01/08/2026 10:00",
+  "end": "01/09/2026 11:00",
+  "event_id": "ev10"
+ }
+]

@@ -1,0 +1,27 @@
+{
+ "pooled": {
+  "E0": {
+   "crps": 0.07319990909090911,
+   "sd_pred_mean_m": 0.11333636363636365,
+   "floor_share": 1.0056818181818183,
+   "param_share": 0.00016363636363636366,
+   "pit_rms_dev": 0.046458181818181815
+  },
+  "E1": {
+   "crps": 0.07344018181818182,
+   "sd_pred_mean_m": 0.09899999999999999,
+   "floor_share": 1.0058363636363636,
+   "param_share": 6.363636363636364e-05,
+   "pit_rms_dev": 0.045765454545454554
+  },
+  "E2": {
+   "crps": 0.07483009090909092,
+   "sd_pred_mean_m": 0.1476363636363636,
+   "floor_share": 0.1452181818181818,
+   "param_share": 0.0,
+   "pit_rms_dev": 0.05058181818181818
+  }
+ },
+ "max_abs_crps_diff_vs_ra4_rep0": 4.901697126941107e-07,
+ "note": "Predictive-variance decomposition on the full S=500 LOEO posterior predictive sets (same seed construction as mc_error rep0); floor = error-model variance (s2+W), param = posterior spread of the GP mean; pit_rms_dev = RMS deviation of the 20-bin PIT histogram from uniformity."
+}

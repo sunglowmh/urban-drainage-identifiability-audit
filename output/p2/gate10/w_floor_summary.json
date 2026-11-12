@@ -1,0 +1,18 @@
+{
+ "sw_median_range": [
+  0.0004918853896985512,
+  0.005405425131593696
+ ],
+ "sw_p95_range": [
+  0.002274107043450334,
+  0.03191195366723943
+ ],
+ "sw_max_range": [
+  0.012475584190526233,
+  0.9718349533382319
+ ],
+ "frac_gt005_median": 0.0,
+ "frac_gt005_max": 0.03461538461538462,
+ "events_with_max_le_002": 7,
+ "note": "W = GP reconstruction variance map (station x time). sqrt(W) in m. Large cells (>0.05 m) only in ev00 (3.5%), ev07 (0.3%), ev08 (0.6%), ev10 (0.2%)."
+}

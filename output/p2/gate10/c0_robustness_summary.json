@@ -1,0 +1,77 @@
+{
+  "c0_1_datum_residual": {
+    "median_drift_orig_frac": 0.6831,
+    "median_drift_corr_frac": 0.539,
+    "residual_share_of_original_median": 0.789,
+    "mean_residual_share": 0.8509,
+    "max_drift_corr_frac": 0.9146
+  },
+  "c0_2_threshold_band": {
+    "0.45": {
+      "n_flips": 6,
+      "flip_units": [
+        "ev01-p0",
+        "ev02-p0",
+        "ev03-p0",
+        "ev04-p0",
+        "ev06-p0",
+        "ev05-p1"
+      ],
+      "pass_by_model": {
+        "E0": 11,
+        "E1": 11,
+        "E2": 11
+      }
+    },
+    "0.50": {
+      "n_flips": 6,
+      "flip_units": [
+        "ev01-p0",
+        "ev02-p0",
+        "ev03-p0",
+        "ev04-p0",
+        "ev06-p0",
+        "ev05-p1"
+      ],
+      "pass_by_model": {
+        "E0": 11,
+        "E1": 11,
+        "E2": 11
+      }
+    },
+    "0.55": {
+      "n_flips": 7,
+      "flip_units": [
+        "ev01-p0",
+        "ev02-p0",
+        "ev03-p0",
+        "ev04-p0",
+        "ev06-p0",
+        "ev09-p0",
+        "ev05-p1"
+      ],
+      "pass_by_model": {
+        "E0": 11,
+        "E1": 11,
+        "E2": 11
+      }
+    },
+    "stable_core_n": 6,
+    "stable_core_units": [
+      "ev01-p0",
+      "ev02-p0",
+      "ev03-p0",
+      "ev04-p0",
+      "ev05-p1",
+      "ev06-p0"
+    ]
+  },
+  "c0_3_mde": {
+    "n_events": 11,
+    "pooled_mean_diff_m": 0.000677,
+    "cluster_bootstrap_se_m": 0.000104,
+    "mde_80pct_m": 0.000292,
+    "mde_80pct_mm": 0.29,
+    "note": "MDE = (z_.975 + z_.80) * SE(cluster bootstrap over 11 events, B=10^4, seed 20261112); applies to the pooled mean change under the registered LOEO design."
+  }
+}

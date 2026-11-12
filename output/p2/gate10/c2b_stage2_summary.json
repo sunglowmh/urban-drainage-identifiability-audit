@@ -1,0 +1,50 @@
+{
+ "amp": 2.5,
+ "seeds": [
+  0,
+  1
+ ],
+ "n_cases": 34,
+ "n_cells": 102,
+ "flip_cells_high": 0,
+ "ident_rate_diag_high": {
+  "E0": {
+   "n1": 1.0,
+   "n2": 1.0,
+   "n3": 1.0
+  },
+  "E1": {
+   "n1": 1.0,
+   "n2": 1.0,
+   "n3": 1.0
+  },
+  "E2": {
+   "n1": 1.0,
+   "n2": 1.0,
+   "n3": 1.0
+  }
+ },
+ "ident_rate_diag_orig_anchor": {
+  "E0": {
+   "n1": 0.9,
+   "n2": 1.0,
+   "n3": 1.0
+  },
+  "E1": {
+   "n1": 0.9,
+   "n2": 0.9,
+   "n3": 1.0
+  },
+  "E2": {
+   "n1": 0.8571428571428571,
+   "n2": 0.9285714285714286,
+   "n3": 1.0
+  }
+ },
+ "injection": {
+  "sigma_i_median": 0.07942332436778951,
+  "phi_gen": 0.81662158373005,
+  "tau_b": 0.1
+ },
+ "note": "High-excitation arm: anchor forcing x2.5, all else identical to the registered twin (injection levels, 90-LHS design, 24-point validation, frozen A25 thresholds)."
+}

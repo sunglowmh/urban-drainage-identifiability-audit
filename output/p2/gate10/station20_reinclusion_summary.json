@@ -1,0 +1,119 @@
+{
+ "raw": {
+  "n_flip_units_arch": 6,
+  "n_flip_units_reincl": 6,
+  "flip_units": [
+   {
+    "event": "ev01",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev02",
+    "param": "n1",
+    "flips_arch": "E2",
+    "flips_reincl": "E2"
+   },
+   {
+    "event": "ev03",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev04",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev05",
+    "param": "n2",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev06",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   }
+  ],
+  "pass_total_arch": {
+   "E0": 27,
+   "E1": 32,
+   "E2": 33
+  },
+  "pass_total_reincl": {
+   "E0": 27,
+   "E1": 32,
+   "E2": 33
+  }
+ },
+ "datum_corr": {
+  "n_flip_units_arch": 6,
+  "n_flip_units_reincl": 5,
+  "flip_units": [
+   {
+    "event": "ev01",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev02",
+    "param": "n1",
+    "flips_arch": "E2",
+    "flips_reincl": "E2"
+   },
+   {
+    "event": "ev03",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev04",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   },
+   {
+    "event": "ev05",
+    "param": "n2",
+    "flips_arch": "E1|E2",
+    "flips_reincl": ""
+   },
+   {
+    "event": "ev06",
+    "param": "n1",
+    "flips_arch": "E1|E2",
+    "flips_reincl": "E1|E2"
+   }
+  ],
+  "pass_total_arch": {
+   "E0": 27,
+   "E1": 32,
+   "E2": 33
+  },
+  "pass_total_reincl": {
+   "E0": 28,
+   "E1": 32,
+   "E2": 33
+  }
+ },
+ "st20_datum_offset_by_event": {
+  "ev00": 0.6048,
+  "ev01": -0.0608,
+  "ev02": -0.0511,
+  "ev03": -0.0525,
+  "ev04": -0.0493,
+  "ev05": -0.0745,
+  "ev06": -0.0485,
+  "ev07": -0.0505,
+  "ev08": -0.0515,
+  "ev09": -0.0446,
+  "ev10": -0.0439
+ }
+}

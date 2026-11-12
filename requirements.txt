@@ -1,0 +1,6 @@
+numpy==2.4.4
+scipy==1.18.1
+pandas==3.0.5
+pyswmm==2.2.0
+matplotlib
+Pillow
