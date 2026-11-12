@@ -63,7 +63,10 @@ and emulator error map `W`, so all figure and table regeneration scripts
 
 ## Reference
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24162001.svg)](https://doi.org/10.5281/zenodo.24162001)
+
 The manuscript (under review at *Environmental Modelling & Software*) documents the
 full protocol: QC thresholds, error-structure definitions, twin-calibrated grading
-thresholds, and the pre-registered CRPS holdout. A versioned archive DOI will be
-assigned on acceptance.
+thresholds, and the pre-registered CRPS holdout. This repository is mirrored as a
+versioned Zenodo archive (v1.0.0, concept DOI above; version DOI
+https://doi.org/10.5281/zenodo.24162002).
