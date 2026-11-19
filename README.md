@@ -1,6 +1,6 @@
-# Auditing parameter identifiability and held-out prediction under alternative observation error structures in an urban drainage model
+# Error-structure dependence of practical identifiability and the limited transfer of calibration gains to held-out events in urban drainage modeling
 
-Code, simulation outputs, and pre-registration documents for the manuscript submitted to *Environmental Modelling & Software*.
+Code, simulation outputs, and pre-registration documents for the accompanying manuscript (submitted for publication).
 
 The study audits practical identifiability of three roughness parameters in a real
 urban drainage model (Eastbourne–Pevensey, UK) under three observation error
@@ -22,9 +22,12 @@ output/p2/gate8|gate9|gate10/                posterior bundles, holdout and tran
                                              classification (classification.csv), robustness audits
 output/p2/*_report*.md                       stage reports
 output/derived/aggregated_areal_rainfall_15min.csv  15-min areal rainfall series (>=60% station coverage)
-figures/                                     figure scripts and rendered figures (Figs 1–5, graphical abstract)
+figures/                                     figure scripts and rendered figures
+                                             (manuscript Figs 1–3 = figure1–3_*; manuscript Fig 4 = figure5_loeo_paired_*;
+                                             figure4_axis_comparison_* is an auxiliary analysis figure)
 preregistration/preregistration.md           frozen pre-registration document
 preregistration/integrity_log.md             per-run integrity log
+supplementary_notes.md                       Supplementary Notes S1–S11 (Tables S1–S4), as submitted
 ```
 
 ## Environment
@@ -39,8 +42,7 @@ The raw sewer water-level, rain-gauge, fluvial, and borehole telemetry used in t
 study are part of the open Blue Heart dataset (497 gauges, 78 km² urban catchment,
 Eastbourne and Southern Wealden, UK), published with the permission of Southern Water:
 
-> Blue Heart (2026) *Flood awareness and resilience in Eastbourne and Southern Wealden*.
-> Zenodo. https://doi.org/10.5281/zenodo.20699635
+> Blue Heart (2026) *Dataset: High resolution hydrometric and sewer system monitoring of an urban catchment with complex flood risk* [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20699635
 
 To re-run the pipeline from raw data, download the dataset and place the seven
 sub-folders and `index_telemetry_data.csv` under `dataset/` (the path expected by
@@ -65,8 +67,9 @@ and emulator error map `W`, so all figure and table regeneration scripts
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24162001.svg)](https://doi.org/10.5281/zenodo.24162001)
 
-The manuscript (under review at *Environmental Modelling & Software*) documents the
+The manuscript (submitted for publication; pre-registration frozen before any
+real-data analysis) documents the
 full protocol: QC thresholds, error-structure definitions, twin-calibrated grading
 thresholds, and the pre-registered CRPS holdout. This repository is mirrored as a
-versioned Zenodo archive (v1.0.0, concept DOI above; version DOI
-https://doi.org/10.5281/zenodo.24162002).
+versioned Zenodo archive (concept DOI above;
+version-specific DOIs are listed on the Zenodo record page).
