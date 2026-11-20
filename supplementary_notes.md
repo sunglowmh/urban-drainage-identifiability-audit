@@ -132,7 +132,7 @@ frozen job manifests (`jobs_*.json`) in the archived repository.
 This note documents two rule-driven exclusion/coverage audits referenced in §2.2. Both are inference-layer recomputations on the archived posterior grids;
 no simulation was re-run.
 
-**S2.1 Station 20 re-inclusion (QC-boundary exclusion).** Station 20 (TQ61003301)
+**S4.1 Station 20 re-inclusion (QC-boundary exclusion).** Station 20 (TQ61003301)
 was excluded from every event by the fixed QC rules of §2.2 (anchor-event offset
 +0.60 m, RMSE 0.67 m), the exclusion closest to the QC boundary. Because its
 observations are present in the archive, we re-included it (unmasked its QC-valid
@@ -149,11 +149,11 @@ Station 20's offsets on the other ten events are near-constant (−0.044 to −0
 median ≈ −0.05 m), so its anchor-event exclusion reflects a datum shift rather than
 event-specific dynamics: the exclusion is conservative and not results-driven.
 
-**S2.2 ev05 exclusion (low-coverage event).** Excluding ev05 (17 of 30 stations)
+**S4.2 ev05 exclusion (low-coverage event).** Excluding ev05 (17 of 30 stations)
 entirely leaves the sensitivity result of §4.2 intact; the full accounting is given
 with the construction-sensitivity checks of Note S11.
 
-**S2.3 Per-event station-20 offsets.** ev00 +0.605; ev01 −0.061; ev02 −0.051;
+**S4.3 Per-event station-20 offsets.** ev00 +0.605; ev01 −0.061; ev02 −0.051;
 ev03 −0.053; ev04 −0.049; ev05 −0.075; ev06 −0.049; ev07 −0.051; ev08 −0.052;
 ev09 −0.045; ev10 −0.044 (m).
 
@@ -379,7 +379,7 @@ recomputations on frozen archives; no new hydraulic simulations) and the seconda
 verification metrics requested for complete reporting. All scripts and outputs are in
 the archived repository (`p5_pc1`–`p5_pc7`; `output/p2/gate10/`).
 
-### S11.1 Positive control for the RQ2 detection pipeline
+### S10.1 Positive control for the RQ2 detection pipeline
 
 The pre-registered ≥5% CRPS-improvement threshold is a detection criterion; a negative
 result is informative only if the pipeline can detect an improvement of that size when
@@ -411,7 +411,7 @@ forcing makes the parameter signal dominant in the predictive decomposition) and
 support the reading that the 0/33 held-out result reflects the information content of
 the observed events rather than insensitivity of the scoring pipeline.
 
-### S11.2 W (emulator-error floor) sensitivity
+### S10.2 W (emulator-error floor) sensitivity
 
 The likelihood floor W = diag(σ²_emu) down-weights observations where the surrogate is
 least trusted (§3.2); if it were severe enough it could create a floor effect on
@@ -424,7 +424,7 @@ unchanged or increases (by 0 to 0.17, largest for ev00 under E1), so the grading
 sensitivities of §4.2 are not an artifact of observation down-weighting — removing the
 floor only adds information.
 
-### S11.3 Flow-regime stratification of the datum offsets
+### S10.3 Flow-regime stratification of the datum offsets
 
 The datum-offset attribution (§4.5) treats the removed per-station offsets as
 time-invariant sensor datum error; a flow-dependent structural bias would instead grow
@@ -442,7 +442,7 @@ absolute difference 0.96 and 0.61 cm). The additive-offset reading of §4.5 is
 therefore "consistent with" in a quantitative sense: the removed quantities behave as
 datum shifts, and E2's absorbed offsets are the same quantities.
 
-### S11.4 Common-random-number (CRN) paired differences
+### S10.4 Common-random-number (CRN) paired differences
 
 The registered Monte-Carlo error propagation (§4.4) drew posterior and prior predictive
 residuals with independent seeds. A CRN variant that shares the standardized residual
@@ -454,7 +454,7 @@ E1 3.9 × 10⁻⁵ → 3.8 × 10⁻⁶; E2 2.6 × 10⁻⁴ → 2.6 × 10⁻⁵ m
 is positive (degradation) in 29 of 33 units and in 10 of 11 events under E2. The E2
 degradation is therefore systematic rather than Monte-Carlo noise.
 
-### S11.5 Acceptance-matrix robustness: by-truth clustering and a variance-matched E0 arm
+### S10.5 Acceptance-matrix robustness: by-truth clustering and a variance-matched E0 arm
 
 The n = 50 runs per acceptance cell (§4.1) group into 5 truth triplets, so a simple
 Wilson interval may understate uncertainty if truth triplets differ systematically. A
@@ -479,7 +479,7 @@ acceptance therefore does not depend on the variance composition of its generati
 arm, and the E1/E2 differences are attributable to the memory and offset components of
 the error structure rather than to variance mismatch.
 
-### S11.6 Secondary verification metrics (LOEO held-out predictions)
+### S10.6 Secondary verification metrics (LOEO held-out predictions)
 
 Table S4 assembles the registered secondary metrics for the 33 LOEO held-out
 comparisons (per-fold values in the archived repository,
@@ -546,3 +546,17 @@ the prior.
 
 ---
 
+
+## Supplementary references
+
+Works cited in this Supplementary Material that do not appear in the main
+manuscript reference list.
+
+Beven KJ (2006) A manifesto for the equifinality thesis. J Hydrol 320:18-36. https://doi.org/10.1016/j.jhydrol.2005.07.007
+Beven KJ, Binley A (1992) The future of distributed models: model calibration and uncertainty prediction. Hydrol Process 6:279-298. https://doi.org/10.1002/hyp.3360060305
+Bonanno E, Blöschl G, Klaus J (2022) Exploring tracer information in a small stream to improve parameter identifiability and enhance the process interpretation in transient storage models. Hydrol Earth Syst Sci 26:6003-6028. https://doi.org/10.5194/hess-26-6003-2022
+Guilpart E, Espanmanesh V, Tilmant A, Anctil F (2021) Combining split-sample testing and hidden Markov modelling to assess the robustness of hydrological models. Hydrol Earth Syst Sci 25:4611-4629. https://doi.org/10.5194/hess-25-4611-2021
+Hassan ZU, Su J, Wang D, Tang L, Hou Y, Huang W, Zhang J, Zhu Z (2026) Comparative evaluation of parallel optimization algorithms for urban drainage modeling using OSTRICH-SWMM. Front Water 8:1786203. https://doi.org/10.3389/frwa.2026.1786203
+Huang Z, Zhao T (2022) Predictive performance of ensemble hydroclimatic forecasts: verification metrics, diagnostic plots and forecast attributes. WIREs Water 9:e1580. https://doi.org/10.1002/wat2.1580
+Wu S, Tetzlaff D, Beven K, Soulsby C (2025) DREAM(LoAX): simultaneous calibration and diagnosis for tracer-aided ecohydrological models under the equifinality thesis. Water Resour Res 61:e2024WR038779. https://doi.org/10.1029/2024WR038779
+Zhong B, Wang Z, Yang H, Xu H, Gao M, Liang Q (2023) Parameter optimization of SWMM model using integrated Morris and GLUE methods. Water 15:149. https://doi.org/10.3390/w15010149
