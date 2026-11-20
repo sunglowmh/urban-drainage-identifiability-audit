@@ -234,3 +234,10 @@
 - **内容**：Note 重编号 S10-S1、S7-S2、S1-S3、S2-S4、S4-S5、S5-S6、S6-S7、S3-S8、S8-S9、S11-S10（子号 S11.1-S11.6 改为 S10.1-S10.6）、S9-S11；Table 重编号 旧S3-S1（文献定位）、旧S1-S2（站点可用性）、旧S2-S3（C1-C4 规则）、旧S4 不变（LOEO 二次指标）；supplementary_notes.md 物理顺序同步重排；正文与 SI 内全部引用同步更新；正文首次引用处与 Data availability 声明挂 "Online Resource 1 (ESM_1.pdf)"。
 - **内容不变性**：仅编号与顺序变化，任何数字、公式、结论、审计记录均无改动；正文关键数字逐位复核一致。
 - **影响范围**：supplementary_notes.md；主稿引用文本（仓库外）；本存档重打包为 v1.7.0。
+
+## I29 子号标题修复与 SI 参考列表补充（2026-11-20，一致性复查）
+- **发现**：I28 重编号仅覆盖带 "Note S" 前缀的引用形式，9 处独立子号标题漏改：Note S4 下子项仍为 S2.1-S2.3（应为 S4.1-S4.3），Note S10 下仍为 S11.1-S11.6（应为 S10.1-S10.6，与正文 Supplementary Note S10.x 引用不一致）。
+- **修复**：9 处子号标题同步更新（S2.1-S4.1、S2.2-S4.2、S2.3-S4.3、S11.1-S10.1 至 S11.6-S10.6）。
+- **补充**：全文一致性复查发现 Note S1 引用 8 篇未出现在主稿参考文献列表的文献（Beven 2006；Beven and Binley 1992；Bonanno et al. 2022；Guilpart et al. 2021；Hassan et al. 2026；Huang and Zhao 2022；Wu et al. 2025；Zhong et al. 2023）——均为此前 doi.org CSL-JSON 核验过的真实文献（见 00_references_ems.md），因主稿文献列表精简而缺失。按 Springer 惯例在 SI 末尾新增 "Supplementary references" 节列出 8 条（格式与主稿一致，题名保持出版物原样）。
+- **不变性**：除编号更正与新增参考列表外，正文、SI 正文、任何数字与结论均无改动。
+- **影响范围**：supplementary_notes.md；本存档重打包为 v1.7.1。
