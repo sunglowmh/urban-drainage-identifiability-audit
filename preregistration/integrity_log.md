@@ -228,3 +228,9 @@
 - **背景**：稿件已改投（期刊中性表述，submitted for publication）。README 与 Zenodo 存档描述中的期刊名称及 "(submitted to ...)" 表述一并移除，归档不再绑定特定期刊；
 - **不改项**：本日志为追加式记录，I24 条目中 "EMS 单一定位" 为冻结当时（2026-11-11）的历史事实，原样保留；预注册文档、判级规则、冻结阈值与全部登记数字不受改投影响；
 - **同步范围**：README（期刊中性化；Blue Heart 数据集引用按 Zenodo 实际题名勘正）、supplementary_notes.md 同步为投稿版（Notes S1–S11、Tables S1–S4）、本条日志追加；Zenodo 最新版本元数据同步去期刊化。
+
+## I28 附属材料编号按正文首引顺序重排（2026-11-20，SERRA 格式合规）
+- **依据**：SERRA/Springer 投稿指南要求补充材料按正文引用的连续次序编号（类似图表的 "consecutive numerical order"）；投稿前检查发现 Supplementary Note 首引顺序为 S10-S7-S1-S2-S4-S5-S6-S3-S8-S11-S9，与文件编号不一致。
+- **内容**：Note 重编号 S10-S1、S7-S2、S1-S3、S2-S4、S4-S5、S5-S6、S6-S7、S3-S8、S8-S9、S11-S10（子号 S11.1-S11.6 改为 S10.1-S10.6）、S9-S11；Table 重编号 旧S3-S1（文献定位）、旧S1-S2（站点可用性）、旧S2-S3（C1-C4 规则）、旧S4 不变（LOEO 二次指标）；supplementary_notes.md 物理顺序同步重排；正文与 SI 内全部引用同步更新；正文首次引用处与 Data availability 声明挂 "Online Resource 1 (ESM_1.pdf)"。
+- **内容不变性**：仅编号与顺序变化，任何数字、公式、结论、审计记录均无改动；正文关键数字逐位复核一致。
+- **影响范围**：supplementary_notes.md；主稿引用文本（仓库外）；本存档重打包为 v1.7.0。

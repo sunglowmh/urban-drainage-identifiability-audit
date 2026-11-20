@@ -1,12 +1,98 @@
 # Supplementary Notes
 
-## Supplementary Note S1 — Event screening, stratification, and perturbation records (companion to §2.2–§2.3)
+## Supplementary Note S1 — Literature lineage supporting the Introduction (companion to §1)
+
+This note records the literature context moved out of the Introduction (which is
+held to a single printed page); no analysis or number in the main text is affected.
+
+**Practice and feasibility strand (companion to §1, sentence with Barco/Crowley/Razavi).**
+The audit design presumes three operational substrates that the urban-drainage literature
+has built independently: network-scale automatic calibration practice for SWMM
+(Barco et al. 2008, large-catchment automatic calibration with multi-objective
+refinements since), information-theoretic sensor placement that justifies dense
+water-level sensing (Crowley et al. 2025), and surrogate modeling that makes
+large simulation ensembles affordable (Razavi et al. 2012, the standard review of
+surrogate methods across water resources; emulator-based inference of the kind used
+here is one instance). None of these strands addresses error-structure sensitivity of
+identifiability grading itself, which is the gap the main text takes up.
+
+**Practical-identifiability methods.** Practical-identifiability methodology has
+advanced considerably: tracer-based information analysis in transient storage models
+(Bonanno et al. 2022), re-examination of how few parameters remain identifiable even
+under data-rich conditions in a soil organic matter model (Van de Broek and Six 2026),
+and screening-then-identification workflows for SWMM combining Morris screening with
+GLUE (Zhong et al. 2023). These methods share the operational premise audited in the
+main text: identifiability is assessed under a single assumed error model. The epistemic
+alternative — behavioral reasoning under equifinality — originates with GLUE
+(Beven and Binley 1992; Beven 2006) and remains in active methodological development,
+for example in diagnostic-embedded samplers that calibrate and diagnose simultaneously
+(Wu et al. 2025).
+
+**The error model as a modeling decision.** In catchment hydrology, the
+formal-likelihood lineage spans three decades: MCMC-based parameter uncertainty
+assessment (Kuczera and Parent 1998), Bayesian total error analysis separating input,
+model and observation error (Thyer et al. 2009), likelihoods for correlated,
+heteroscedastic and non-Gaussian residuals (Schoups and Vrugt 2010), and analyses of
+the pitfalls of jointly inferring heteroscedasticity and autocorrelation (Evin et al. 2013, 2014). Residual heteroscedasticity and correlation are widespread in practice
+(Lombardo et al. 2025); accommodation remains contested between formal correlated
+likelihoods (Herrera et al. 2022), GLUE-type behavioral reasoning (Beven and Binley 1992; Beven 2006, 2025), and diagnostic-embedded samplers (Wu et al. 2025).
+
+**From calibration diagnostics to prediction.** Split-sample calibration–evaluation
+remains the default transfer test (Guilpart et al. 2021; Hassan et al. 2026), with
+probabilistic verification metrics such as the CRPS (Gneiting and Raftery 2007;
+Huang and Zhao 2022) as its tooling. Surrogate-accelerated calibration (Tanim et al.
+2024) and scalable variational inference coupled to differentiable hydrology
+(Nguyen et al. 2025) inherit the same premise: gains are claimed at calibration
+time under an assumed error model, and their transfer to unseen events is rarely
+audited. Pool et al. (2026) show that additional calibration constraints can even
+degrade predictive uncertainty; those tests, however, were run at catchment scale,
+not in urban networks.
+
+**Table S1.** Positioning of this study relative to the urban-drainage and nearest
+catchment studies of error-model effects (companion to §1).
+
+| Axis | Del Giudice et al. (2013; 2015) | Cedillo et al. (2024) | This study |
+|---|---|---|---|
+| Domain | urban drainage network | river reach | urban drainage network |
+| Question | error-model choice vs predictive reliability; bias redistribution with model complexity | likelihood choice vs calibrated effective roughness | error structure vs identifiability grading and held-out skill |
+| Practical-identifiability grading | not assessed | not assessed | per-cell grading under twin-calibrated thresholds |
+| Held-out prediction test | validation periods (not pre-registered) | not performed | pre-registered leave-one-event-out with frozen CRPS criterion |
+| Mechanism arm | — | — | per-station datum-offset correction |
+
+---
+
+## Supplementary Note S2 — Computational reproducibility and model assets (companion to §2.1 and §3.1–§3.5)
+
+All stochastic and discretization choices are fixed and archived. The profile grids
+of §3.2 — the eight-point geometric s² grid and the five-point τ grid — are anchored
+by the same rule in every analysis arm (full-network calibration, LOEO, LOCO, and
+transfer), with the anchor always the residual scale of the design-mean simulation at
+the current grid level, so no arm receives a sharper nuisance grid than another. GP
+hyperparameters involve no gradient-based optimization: for each principal-component
+score, the lengthscale is selected from a fixed five-point candidate grid by
+leave-one-out predictive error, and the noise variance is set to that error's mean
+square. The 90-point Latin hypercube design is archived in full as the run manifest,
+so the emulator input set is exactly reproducible without re-sampling; prediction
+sampling, event bootstrap (B = 10 000), and the Monte-Carlo error propagation of §3.6
+each draw from a fixed seed recorded in the archived scripts. The bootstrap-based
+point estimate carries a Monte-Carlo sampling error of 8.5 × 10⁻⁵ m (§4.4), which
+bounds the reproducibility of the reported interval under seed changes.
+
+---
+
+**GP emulator hyperparameters (companion to §3.1; fixed, no gradient-based optimization; fixed candidate grid with leave-one-out selection).** Matérn 5/2 length scale 0.4 in the unit cube; signal variance equal to the empirical variance of the standardized training outputs; nugget (10⁻³ × output sd)² for factorization stability.
+
+**Profile grids and fixed nuisance values (companion to §3.2).** E2 τ five-point grid: {0.02, 0.05, 0.10, 0.20, 0.40} m. φ_i clipped to [0, 0.95]; stations with fewer than 30 valid lag-1 pairs retain the default 0.5.
+
+**Pilot model asset inventory (companion to §2.1).** The model file contains 2,290 conduits, of which 2,274 are circular conduits retained in the pilot subnetwork and 16 are dummy links at virtual confluence nodes; 82 free pseudo-outfalls are placed at dead-end nodes.
+
+## Supplementary Note S3 — Event screening, stratification, and perturbation records (companion to §2.2–§2.3)
 
 **Stratified event selection.** Per-stratum candidate lists and the selected events
 for the stratified ten-event draw (§2.3) are recorded in the archived screening
 manifest (p0_audit/ in the archived repository).
 
-**Table S1.** Per-event station availability after quality control (companion table to §2.2).
+**Table S2.** Per-event station availability after quality control (companion table to §2.2).
 
 | Event | Valid stations | Notes |
 |---|---|---|
@@ -41,7 +127,7 @@ frozen job manifests (`jobs_*.json`) in the archived repository.
 
 **Rainfall re-aggregation, per-event window-total differences (companion to §2.2), expressed as (original − corrected)/corrected:** +7.69% for ev00, ev01, ev04 and ev08; +16.67% for ev05; +8.18% for ev07; +0.57% for ev06; ev02, ev03, ev09 and ev10 bit-identical.
 
-## Supplementary Note S2 — Exclusion and low-coverage sensitivity audits
+## Supplementary Note S4 — Exclusion and low-coverage sensitivity audits
 
 This note documents two rule-driven exclusion/coverage audits referenced in §2.2. Both are inference-layer recomputations on the archived posterior grids;
 no simulation was re-run.
@@ -65,7 +151,7 @@ event-specific dynamics: the exclusion is conservative and not results-driven.
 
 **S2.2 ev05 exclusion (low-coverage event).** Excluding ev05 (17 of 30 stations)
 entirely leaves the sensitivity result of §4.2 intact; the full accounting is given
-with the construction-sensitivity checks of Note S9.
+with the construction-sensitivity checks of Note S11.
 
 **S2.3 Per-event station-20 offsets.** ev00 +0.605; ev01 −0.061; ev02 −0.051;
 ev03 −0.053; ev04 −0.049; ev05 −0.075; ev06 −0.049; ev07 −0.051; ev08 −0.052;
@@ -73,39 +159,7 @@ ev09 −0.045; ev10 −0.044 (m).
 
 ---
 
-## Supplementary Note S3 — Holdout implementation details (companion to §3.5)
-
-**Prediction profiling grid.** The profiling grid for prediction uses 12 log-spaced
-variance values spanning four orders of magnitude around the emulator-error scale, a
-wider range than the inversion grid, so that the profile argmax cannot be truncated
-at a grid boundary for θ values sampled from the prior; truncation would artificially
-sharpen the prior predictive and inflate the apparent benefit of calibration.
-
-**Event-specific E2 offsets.** The E2 offset b_i is event-specific: it is
-re-marginalized analytically within each held-out event's likelihood, and no
-cross-event joint estimation is attempted, as the s² and W floors are not stationary
-across events and a hierarchical bias model lies beyond the registered scope. The
-AR(1) coefficients of a held-out event are its own baseline-residual estimates, a
-station-level property fixed across structures.
-
-**Transfer of error-structure profiles.** The prediction-time s²(θ) and τ(θ) are not re-profiled against the held-out data; they are transferred from the calibration events as the median profile value at the same θ (over calibration stations for the station holdout). Profiling the error structure against held-out data is retained only as a sensitivity check (§4.4). The held-out event's QC mask and its baseline-residual φᵢ are likewise event-derived, conditioning the task on these fixed event properties.
-
-**Station clustering construction.** Clusters come from complete-linkage hierarchical
-clustering of the 30 candidate stations on a pipe-length-weighted shortest-path
-distance matrix, computed once and frozen before any holdout computation. The frozen
-clustering carries seven labels, six of which are populated: five in-sewer clusters
-(labels 1–5) and the river-boundary gauge as a single-station cluster (label 7);
-label 6 remained unpopulated because the boundary gauge, which has no conduit path to
-the network, was assigned its own label before freezing.
-
-**Station-subset ladder.** The station-subset ladder (30/15/5 stations) used in the
-observation-density diagnostic at the anchor event follows the registered
-nested-subset design: the 30-station full set, a 15-station quality-ranked subset,
-and a 5-station subset, each defined before any holdout computation.
-
----
-
-## Supplementary Note S4 — Twin construction details (companion to §3.3)
+## Supplementary Note S5 — Twin construction details (companion to §3.3)
 
 **Truth vectors.** Five truth vectors (t₁–t₅) span the prior box θ ∈ [0.009, 0.022]³
 (prior width Δ = 0.013, uniform prior, §3.1): interior corners (all-low 0.010;
@@ -181,7 +235,7 @@ diagnostic status stated in §3.3.
 
 **First-round defect and audit trail (companion to §3.3).** Under the pre-registered invalidation rules, the twin gate caught one fatal defect: first-round twin posteriors were near-flat (posterior sd ≈ prior sd, R_j ≈ 0). Root-cause analysis exposed a grid-unit mismatch in the emulator reconstruction — physical θ values were passed directly into the normalized GP whose inputs are unit-scaled — so the emulator surface, and with it every first-round twin and real-data posterior, was invalid. The affected results were discarded and archived (audit trail in the archived repository), the reconstruction fixed and verified (emulator truth error RMS 0.006–0.012 m on the 24 validation runs), and the full twin and real-data sequence re-run from the corrected emulator. The near-flat signature itself is what the gate is designed to catch: a correct emulator must transmit some parameter information on the high-information anchor forcing, so near-zero R_j is evidence of a reconstruction fault rather than of genuine non-identifiability.
 
-## Supplementary Note S5 — High-excitation twin replication (AMP = 2.5)
+## Supplementary Note S6 — High-excitation twin replication (AMP = 2.5)
 
 **Design.** The registered twin (§3.3 of the manuscript) inherits the anchor event's
 forcing. This arm repeats the full pipeline with the anchor rainfall multiplied by a
@@ -218,7 +272,7 @@ repository.
 
 ---
 
-## Supplementary Note S6 — Rainfall-perturbation design details (companion to §3.4)
+## Supplementary Note S7 — Rainfall-perturbation design details (companion to §3.4)
 
 **LOO calibration of perturbation magnitudes.** Dropping each gauge shifts
 event-total areal depths by up to 7.69% (per-event standard deviation 0.72–3.48%,
@@ -246,32 +300,39 @@ the nuisance-treatment differences.
 
 ---
 
-## Supplementary Note S7 — Computational reproducibility and model assets (companion to §2.1 and §3.1–§3.5)
+## Supplementary Note S8 — Holdout implementation details (companion to §3.5)
 
-All stochastic and discretization choices are fixed and archived. The profile grids
-of §3.2 — the eight-point geometric s² grid and the five-point τ grid — are anchored
-by the same rule in every analysis arm (full-network calibration, LOEO, LOCO, and
-transfer), with the anchor always the residual scale of the design-mean simulation at
-the current grid level, so no arm receives a sharper nuisance grid than another. GP
-hyperparameters involve no gradient-based optimization: for each principal-component
-score, the lengthscale is selected from a fixed five-point candidate grid by
-leave-one-out predictive error, and the noise variance is set to that error's mean
-square. The 90-point Latin hypercube design is archived in full as the run manifest,
-so the emulator input set is exactly reproducible without re-sampling; prediction
-sampling, event bootstrap (B = 10 000), and the Monte-Carlo error propagation of §3.6
-each draw from a fixed seed recorded in the archived scripts. The bootstrap-based
-point estimate carries a Monte-Carlo sampling error of 8.5 × 10⁻⁵ m (§4.4), which
-bounds the reproducibility of the reported interval under seed changes.
+**Prediction profiling grid.** The profiling grid for prediction uses 12 log-spaced
+variance values spanning four orders of magnitude around the emulator-error scale, a
+wider range than the inversion grid, so that the profile argmax cannot be truncated
+at a grid boundary for θ values sampled from the prior; truncation would artificially
+sharpen the prior predictive and inflate the apparent benefit of calibration.
+
+**Event-specific E2 offsets.** The E2 offset b_i is event-specific: it is
+re-marginalized analytically within each held-out event's likelihood, and no
+cross-event joint estimation is attempted, as the s² and W floors are not stationary
+across events and a hierarchical bias model lies beyond the registered scope. The
+AR(1) coefficients of a held-out event are its own baseline-residual estimates, a
+station-level property fixed across structures.
+
+**Transfer of error-structure profiles.** The prediction-time s²(θ) and τ(θ) are not re-profiled against the held-out data; they are transferred from the calibration events as the median profile value at the same θ (over calibration stations for the station holdout). Profiling the error structure against held-out data is retained only as a sensitivity check (§4.4). The held-out event's QC mask and its baseline-residual φᵢ are likewise event-derived, conditioning the task on these fixed event properties.
+
+**Station clustering construction.** Clusters come from complete-linkage hierarchical
+clustering of the 30 candidate stations on a pipe-length-weighted shortest-path
+distance matrix, computed once and frozen before any holdout computation. The frozen
+clustering carries seven labels, six of which are populated: five in-sewer clusters
+(labels 1–5) and the river-boundary gauge as a single-station cluster (label 7);
+label 6 remained unpopulated because the boundary gauge, which has no conduit path to
+the network, was assigned its own label before freezing.
+
+**Station-subset ladder.** The station-subset ladder (30/15/5 stations) used in the
+observation-density diagnostic at the anchor event follows the registered
+nested-subset design: the 30-station full set, a 15-station quality-ranked subset,
+and a 5-station subset, each defined before any holdout computation.
 
 ---
 
-**GP emulator hyperparameters (companion to §3.1; fixed, no gradient-based optimization; fixed candidate grid with leave-one-out selection).** Matérn 5/2 length scale 0.4 in the unit cube; signal variance equal to the empirical variance of the standardized training outputs; nugget (10⁻³ × output sd)² for factorization stability.
-
-**Profile grids and fixed nuisance values (companion to §3.2).** E2 τ five-point grid: {0.02, 0.05, 0.10, 0.20, 0.40} m. φ_i clipped to [0, 0.95]; stations with fewer than 30 valid lag-1 pairs retain the default 0.5.
-
-**Pilot model asset inventory (companion to §2.1).** The model file contains 2,290 conduits, of which 2,274 are circular conduits retained in the pilot subnetwork and 16 are dummy links at virtual confluence nodes; 82 free pseudo-outfalls are placed at dead-end nodes.
-
-## Supplementary Note S8 — C1–C4 decision rules per analysis unit
+## Supplementary Note S9 — C1–C4 decision rules per analysis unit
 
 This note gives the full classification rule table referenced in §3.7. Each
 analysis unit is an event *e* × parameter *j* pair (11 × 3 = 33 units). Evaluation
@@ -282,7 +343,7 @@ posterior of each error structure against the twin-calibrated thresholds (§3.1)
 drift is the cross-structure posterior-mean range expressed in prior widths (§3.6);
 prediction improvement is the LOEO holdout median across structures (§3.5).
 
-**Table S2.** C1–C4 decision rules per analysis unit (event *e* × parameter *j*).
+**Table S3.** C1–C4 decision rules per analysis unit (event *e* × parameter *j*).
 
 | Step | Condition | Label | Interpretation |
 |---|---|---|---|
@@ -297,7 +358,7 @@ prediction improvement is the LOEO holdout median across structures (§3.5).
 **Exhaustiveness check.** The rules are exhaustive and mutually exclusive: every
 combination of (grading pattern × drift × prediction outcome) maps to exactly one
 label, which was verified by enumeration before any unit was classified. An
-independent re-implementation of Table S2 reproduced all 33 labels without
+independent re-implementation of Table S3 reproduced all 33 labels without
 discrepancy.
 
 **Mapping to registered artifacts.** The registered artifacts predate the
@@ -311,85 +372,7 @@ reachable in general).
 
 ---
 
-## Supplementary Note S9 — Control-arm tail percentiles and construction-sensitivity checks (companion to §4.3)
-
-Corrected forcing arm (63 cells): median 0.88%, 90th percentile 9.3%, maximum 26.0%
-of the prior width. Rainfall perturbation arm (54 cells): median 9.2%, 90th
-percentile 26.5%, maximum 42.6%.
-
-Emulator error map W localization: 95th percentile of cell sd ≤ 0.032 m for every
-event. Anchor-event cluster bootstrap, flexible structures: with all stations retained,
-E1–n₂ P(R_j ≥ 0.5) = 0.640 (500 resamples; the value quoted in §4.3); with boundary
-clusters excluded, 0.628 (500 resamples). ev08 cross-structure drift: per-parameter
-maxima of 0.7–2.3 posterior sd (1.1–18.6% of the prior width), all means interior to
-the prior.
-
-**Construction-sensitivity checks (companion to §4.3).** Replacing the profile likelihood with full-grid marginalization over s² and τ (log-uniform weights; τ grid extended downwards to 0.005) changed no grading label across the 33 units, and boundary hits on the τ grid were absent (median mass 0.0%). Re-evaluating the six flipped units on a global 41³ grid without box shrinkage likewise changed no label (posterior mass outside the shrunken box ≤ 4.1%; posterior-mean shift ≤ 0.9% of the prior width). Varying the acceptance cut from R_j ≥ 0.5 to 0.45 or 0.55 leaves the flip count at 6 and 7 respectively, with all six registered flips present in both bands. A data-coverage check excludes the reduced-coverage event ev05 (17 of 30 stations) entirely: 5 of the remaining 30 units flip (the only lost flip being ev05–n₂'s own), and the median cross-structure drift is 66.2% of the prior width (90th percentile 96.3% vs 96.8% over all 33 units), so the sensitivity result is not driven by the least-covered event.
-
----
-
-## Supplementary Note S10 — Literature lineage supporting the Introduction (companion to §1)
-
-This note records the literature context moved out of the Introduction (which is
-held to a single printed page); no analysis or number in the main text is affected.
-
-**Practice and feasibility strand (companion to §1, sentence with Barco/Crowley/Razavi).**
-The audit design presumes three operational substrates that the urban-drainage literature
-has built independently: network-scale automatic calibration practice for SWMM
-(Barco et al. 2008, large-catchment automatic calibration with multi-objective
-refinements since), information-theoretic sensor placement that justifies dense
-water-level sensing (Crowley et al. 2025), and surrogate modeling that makes
-large simulation ensembles affordable (Razavi et al. 2012, the standard review of
-surrogate methods across water resources; emulator-based inference of the kind used
-here is one instance). None of these strands addresses error-structure sensitivity of
-identifiability grading itself, which is the gap the main text takes up.
-
-**Practical-identifiability methods.** Practical-identifiability methodology has
-advanced considerably: tracer-based information analysis in transient storage models
-(Bonanno et al. 2022), re-examination of how few parameters remain identifiable even
-under data-rich conditions in a soil organic matter model (Van de Broek and Six 2026),
-and screening-then-identification workflows for SWMM combining Morris screening with
-GLUE (Zhong et al. 2023). These methods share the operational premise audited in the
-main text: identifiability is assessed under a single assumed error model. The epistemic
-alternative — behavioral reasoning under equifinality — originates with GLUE
-(Beven and Binley 1992; Beven 2006) and remains in active methodological development,
-for example in diagnostic-embedded samplers that calibrate and diagnose simultaneously
-(Wu et al. 2025).
-
-**The error model as a modeling decision.** In catchment hydrology, the
-formal-likelihood lineage spans three decades: MCMC-based parameter uncertainty
-assessment (Kuczera and Parent 1998), Bayesian total error analysis separating input,
-model and observation error (Thyer et al. 2009), likelihoods for correlated,
-heteroscedastic and non-Gaussian residuals (Schoups and Vrugt 2010), and analyses of
-the pitfalls of jointly inferring heteroscedasticity and autocorrelation (Evin et al. 2013, 2014). Residual heteroscedasticity and correlation are widespread in practice
-(Lombardo et al. 2025); accommodation remains contested between formal correlated
-likelihoods (Herrera et al. 2022), GLUE-type behavioral reasoning (Beven and Binley 1992; Beven 2006, 2025), and diagnostic-embedded samplers (Wu et al. 2025).
-
-**From calibration diagnostics to prediction.** Split-sample calibration–evaluation
-remains the default transfer test (Guilpart et al. 2021; Hassan et al. 2026), with
-probabilistic verification metrics such as the CRPS (Gneiting and Raftery 2007;
-Huang and Zhao 2022) as its tooling. Surrogate-accelerated calibration (Tanim et al.
-2024) and scalable variational inference coupled to differentiable hydrology
-(Nguyen et al. 2025) inherit the same premise: gains are claimed at calibration
-time under an assumed error model, and their transfer to unseen events is rarely
-audited. Pool et al. (2026) show that additional calibration constraints can even
-degrade predictive uncertainty; those tests, however, were run at catchment scale,
-not in urban networks.
-
-**Table S3.** Positioning of this study relative to the urban-drainage and nearest
-catchment studies of error-model effects (companion to §1).
-
-| Axis | Del Giudice et al. (2013; 2015) | Cedillo et al. (2024) | This study |
-|---|---|---|---|
-| Domain | urban drainage network | river reach | urban drainage network |
-| Question | error-model choice vs predictive reliability; bias redistribution with model complexity | likelihood choice vs calibrated effective roughness | error structure vs identifiability grading and held-out skill |
-| Practical-identifiability grading | not assessed | not assessed | per-cell grading under twin-calibrated thresholds |
-| Held-out prediction test | validation periods (not pre-registered) | not performed | pre-registered leave-one-event-out with frozen CRPS criterion |
-| Mechanism arm | — | — | per-station datum-offset correction |
-
----
-
-## Supplementary Note S11 — Inference-layer robustness arms and secondary verification metrics (companion to §4)
+## Supplementary Note S10 — Inference-layer robustness arms and secondary verification metrics (companion to §4)
 
 This note documents five post hoc, pre-submission robustness arms (all inference-layer
 recomputations on frozen archives; no new hydraulic simulations) and the secondary
@@ -404,7 +387,7 @@ parameter information is genuinely present. We therefore ran the registered
 prior-versus-posterior scoring (the §3.5 predictive pipeline, in-sample analogue of the
 LOEO worker) on the registered twin with synthetic observations: 5 truth triplets × 3
 generation structures × 2 innovation seeds (seeds shared with the high-excitation arm of
-Note S5), each scored under all three structures (90 scored units; diagonal units
+Note S6), each scored under all three structures (90 scored units; diagonal units
 discussed here).
 
 **Anchor forcing (AMP = 1).** Even though grading passes in every diagonal twin unit,
@@ -416,7 +399,7 @@ excitation the ≥5% threshold is thus rarely attainable even with identifiable
 parameters — the threshold is demanding relative to the share of predictive variance
 attributable to parameter uncertainty.
 
-**High-excitation forcing (AMP = 2.5; the Note S5 arm).** The identical pipeline
+**High-excitation forcing (AMP = 2.5; the Note S6 arm).** The identical pipeline
 detects the improvement: median 7.8%, 18 of 30 diagonal units ≥5%. All 18 units of
 the three informative truth triplets reach the threshold (medians 8.9–9.4%), while
 the moderately separated t₄ and the prior-center truth t₅ do not (0/6 each; medians
@@ -505,7 +488,8 @@ distributions differ little from their priors in CRPS, with E2 purchasing its
 near-nominal 90% coverage with visibly wider intervals.
 
 **Table S4.** LOEO held-out secondary verification metrics (median across the 11
-folds, with [minimum, maximum]; posterior predictive distributions).
+folds, with [minimum, maximum]; posterior predictive distributions; PIT =
+probability integral transform).
 
 | Metric | E0 | E1 | E2 |
 |---|---|---|---|
@@ -545,3 +529,20 @@ Tanim AH, Smith-Lewis C, Downey AR, Imran J, Goharian E (2024) Bayes_Opt-SWMM: A
 Wu S, Tetzlaff D, Beven K, Soulsby C (2025) DREAM(LoAX): simultaneous calibration and diagnosis for tracer-aided ecohydrological models under the equifinality thesis. Water Resour Res 61:e2024WR038779. https://doi.org/10.1029/2024WR038779
 
 Zhong B, Wang Z, Yang H, Xu H, Gao M, Liang Q (2023) Parameter optimization of SWMM model using integrated Morris and GLUE methods. Water 15:149. https://doi.org/10.3390/w15010149
+## Supplementary Note S11 — Control-arm tail percentiles and construction-sensitivity checks (companion to §4.3)
+
+Corrected forcing arm (63 cells): median 0.88%, 90th percentile 9.3%, maximum 26.0%
+of the prior width. Rainfall perturbation arm (54 cells): median 9.2%, 90th
+percentile 26.5%, maximum 42.6%.
+
+Emulator error map W localization: 95th percentile of cell sd ≤ 0.032 m for every
+event. Anchor-event cluster bootstrap, flexible structures: with all stations retained,
+E1–n₂ P(R_j ≥ 0.5) = 0.640 (500 resamples; the value quoted in §4.3); with boundary
+clusters excluded, 0.628 (500 resamples). ev08 cross-structure drift: per-parameter
+maxima of 0.7–2.3 posterior sd (1.1–18.6% of the prior width), all means interior to
+the prior.
+
+**Construction-sensitivity checks (companion to §4.3).** Replacing the profile likelihood with full-grid marginalization over s² and τ (log-uniform weights; τ grid extended downwards to 0.005) changed no grading label across the 33 units, and boundary hits on the τ grid were absent (median mass 0.0%). Re-evaluating the six flipped units on a global 41³ grid without box shrinkage likewise changed no label (posterior mass outside the shrunken box ≤ 4.1%; posterior-mean shift ≤ 0.9% of the prior width). Varying the acceptance cut from R_j ≥ 0.5 to 0.45 or 0.55 leaves the flip count at 6 and 7 respectively, with all six registered flips present in both bands. A data-coverage check excludes the reduced-coverage event ev05 (17 of 30 stations) entirely: 5 of the remaining 30 units flip (the only lost flip being ev05–n₂'s own), and the median cross-structure drift is 66.2% of the prior width (90th percentile 96.3% vs 96.8% over all 33 units), so the sensitivity result is not driven by the least-covered event.
+
+---
+
